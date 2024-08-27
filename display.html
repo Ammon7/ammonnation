@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BEST AND AFFORDABLE GUNS HERE</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body{
+                background-color: rgba(100, 67, 67, 0.342);
+                color: #3367d6;
+                background-image: rgba(3,39,3,0.493);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .product-list {
+                width: 80%;
+                margin: 0 auto;
+            }
+            ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+            li {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 20px;
+                padding: 10px;
+                box-shadow:  0 0 10px rgba(0, 0, 0, 0.2);
+            }
+            img {
+                width: 100%;
+                max-width: 300px;
+                height: auto;
+                margin-bottom: 10px;
+            }
+            h3 {
+                font-size: 1.5rem;
+                margin: 0;
+                margin-bottom: 5px;
+                color: yellow;
+            }
+            p{
+                margin: 0;
+                margin-bottom: 10px;
+            }
+            .purchase-button{
+                background-color: #83f442;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                padding: 10px;
+                cursor: pointer;
+                transition: all 0.2s ease-in-out;
+                width: 200px;
+            }
+            .purchase-button:hover {
+                background-color: #3367D6;
+            }
+            .okay-one {
+                margin-left: 50px;
+            }
+            /* Styles for desktop devices */
+            body {
+                font-size: 16px;
+                background-color: rgb(30, 43, 38);
+                /* other styles */
+            }
+            .container {
+                width: 1000px;
+                /* other styles */
+            }
+            /* Style for mobile devices */
+            @media only screen and (max-width=767px) {
+                body {
+                    font-size: 14px;
+                }
+                .container {
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="okay-one"> BEST AND AFFORDABLE GUNS AVAILABLE HERE.</h1>
+        <div class="product-list">
+            <ul>
+                <li>
+                    <img src="images.jfif">
+                    <h3> PISTOLS</h3>
+                    <p>BEST PISTOLS AVAILABLE HERE</p>
+                    <button onclick="window.location.href='pistol.html'" class="purchase-button">VIEW GUNS</button>
+                </li>
+                <li>
+                    <img src="machine.jfif">
+                    <h3>OTHER TYPES OF GUNS</h3>
+                    <p>OTHER TYPES OF GUNS AVAILABLE HERE</p>
+                    <button onclick="window.location.href='machine.html'" class="purchase-button">VIEW GUNS</button>
+                </li>
+                <li>
+                    <img src="amm.jfif">
+                    <h3>AMMUNITION, OTICS AND ACCESSORIES</h3>
+                    <p>AMMUNITION, OTICS AND ACCESSORIES AVAILABLE HERE</p>
+                    <button onclick="window.location.href='amm.html'" class="purchase-button">VIEW GUNS</button>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
